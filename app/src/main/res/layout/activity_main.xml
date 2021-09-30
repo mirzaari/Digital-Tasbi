@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#32b39f"
+
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/cover"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+
+
+        >
+
+
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/bshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show image" />
+
+    <Button
+        android:id="@+id/bhide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hide image" />
+
+    <Button
+        android:id="@+id/btost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show tost" />
+
+
+</LinearLayout>
